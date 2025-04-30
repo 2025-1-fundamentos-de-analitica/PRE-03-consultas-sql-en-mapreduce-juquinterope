@@ -139,37 +139,37 @@ def run():
     run_mapreduce_job(
         mapper=mapper_query_1,
         reducer=reducer_query_1,
-        input_directory="../files/input",
-        output_directory="../files/query_1",
+        input_directory="files/input",
+        output_directory="files/query_1",
     )    
 
     run_mapreduce_job(
         mapper=mapper_query_2,
         reducer=reducer_query_2,
-        input_directory="../files/input",
-        output_directory="../files/query_2",
+        input_directory="files/input",
+        output_directory="files/query_2",
     )    
 
     run_mapreduce_job(
         mapper=mapper_query_3,
         reducer=reducer_query_3,
-        input_directory="../files/input",
-        output_directory="../files/query_3",
+        input_directory="files/input",
+        output_directory="files/query_3",
     )    
 
 
     run_mapreduce_job(
         mapper=mapper_query_4,
         reducer=reducer_query_4,
-        input_directory="../files/input",
-        output_directory="../files/query_4",
+        input_directory="files/input",
+        output_directory="files/query_4",
     )
 
     run_mapreduce_job(
         mapper=mapper_query_5,
         reducer=reducer_query_5,
-        input_directory="../files/input",
-        output_directory="../files/query_5",
+        input_directory="files/input",
+        output_directory="files/query_5",
     )
 
 if __name__ == "__main__":
